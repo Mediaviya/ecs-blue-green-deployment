@@ -4,7 +4,7 @@ Description: >
 Parameters:
   InstanceType:
     Type: String
-    Default: t2.large
+    Default: t2.micro
 
   ClusterSize:
     Type: Number
@@ -48,7 +48,7 @@ Mappings:
     us-east-2:
       AMI: ami-1b8ca37e
     us-west-1:
-      AMI: ami-e5cdf385
+      AMI: ami-bfb5fec6
     us-west-2:
       AMI: ami-a64d9ade
     eu-west-1:
